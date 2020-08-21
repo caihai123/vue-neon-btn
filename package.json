@@ -1,6 +1,6 @@
 {
   "name": "vue-neon-btn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "霓虹灯按钮组件",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "build": "webpack --config webpack.config.js"
   },
   "keywords": [
-    "none",
+    "vue",
+    "neon",
     "button"
   ],
   "author": "caihai",
@@ -24,5 +25,12 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caihai123/vue-neon-btn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caihai123/vue-neon-btn/issues"
+  },
+  "homepage": "https://github.com/caihai123/vue-neon-btn#readme"
 }
