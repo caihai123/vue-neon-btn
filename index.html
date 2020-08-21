@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@2.6.12/dist/vue.js"></script>
+    <script src="./dist/vue-neon-btn.min.js"></script>
+    <link rel="stylesheet" href="./dist/vue-neon-btn.min.css" />
+    <style>
+      body {
+        background: #031628;
+        font-size: 14px;
+      }
+      #app {
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <vue-neon-btn>Hover me</vue-neon-btn>
+      </div>
+      <div>
+        <vue-neon-btn color="#4cc9f0" size="medium">Hover me</vue-neon-btn>
+      </div>
+      <div>
+        <vue-neon-btn color="#f038ff" size="small">Hover me</vue-neon-btn>
+      </div>
+      <div>
+        <vue-neon-btn color="#b9e769" size="mini">Hover me</vue-neon-btn>
+      </div>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+      });
+    </script>
+  </body>
+</html>
